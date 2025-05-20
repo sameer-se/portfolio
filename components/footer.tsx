@@ -103,14 +103,10 @@ export default function Footer() {
           </motion.div>
         </div>
 
-        <div className="mt-12 pt-6 border-t border-muted flex flex-col md:flex-row justify-between items-center">
+        <div className="mt-12 pt-6 border-t border-muted flex flex-col md:flex-row items-center">
           <p className="text-sm text-muted-foreground mb-4 md:mb-0">
             © {currentYear} Sameer Khadka. All rights reserved.
           </p>
-          <div className="font-mono text-sm text-muted-foreground">
-            <span className="text-primary">{">"}</span> Built using Next.js &
-            Tailwind CSS
-          </div>
         </div>
       </div>
     </footer>
